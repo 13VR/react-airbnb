@@ -1,0 +1,31 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact__ifo {
+  display: flex;
+  gap: 20px;
+}
+.contact__photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+.contact__info--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.title__text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+.title__sub-block {
+  display: flex;
+  gap: 16px;
+}
